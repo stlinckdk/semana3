@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 01</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="main.js"></script>
+
+  </head>
+  <body>
+    <form class="form" action="index.html" method="post">
+      <div class="form-element">
+        <label for="">Nombre</label>
+        <input type="text" name="" value="" class="nombre">
+      </div>
+      <div class="form-element">
+        <label for="">Apellido</label>
+        <input type="text" name="" value="" class="apellido">
+      </div>
+      <div class="form-element">
+        <label for="">Curso</label>
+        <select class="curso" name="lista">
+          <option value="desarrollo-web">Desarrollo Web</option>
+          <option value="desarrollo-movile">Desarrollo Movile</option>
+          <option value="diseño">Diseño</option>
+        </select>
+        <div class="genero">
+          <input type="radio" name="genero" value="masculino" checked>
+          <label for="hombre">Masculino</label>
+          <input type="radio" name="genero" value="femenino">
+          <label for="mujer">femenino</label>
+          <input type="radio" name="genero" value="otro">
+          <label for="otro">Otros</label>
+         </div>
+        <button type="submit" name="button" class="boton-registrar">registrar</button>
+      </div>
+    </form>
+    <p class="mensaje-texto"></p>
+  </body>
+</html>
